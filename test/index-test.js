@@ -10,7 +10,7 @@ describe('this-is-a-test-name', () => {
 
   describe('Height', () => {
     it('40+', () => {
-      expect(index.height).toBeGreaterThan(40)
+      expect(index.height).toBeGreaterThan(400)
     })
   })
 
