@@ -5,7 +5,7 @@ describe('what-is-a-test-this-is-a-test-name', () => {
     it('returns "Susan"', () => {
       expect(index.name).toEqual('Susan')
     })
-  }))
+  })
 
 
 /*  describe('Height', () => {
