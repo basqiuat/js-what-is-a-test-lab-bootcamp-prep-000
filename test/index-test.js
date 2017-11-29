@@ -16,7 +16,7 @@ describe('this-is-a-test-name', () => {
 
   describe('Message', () => {
     it('name & height', () => {
-      expect(index.message).toInclude(index.name)
+      expect(index.message).toExclude(index.name)
       expect(index.message).toInclude(index.height)
     })
   })
