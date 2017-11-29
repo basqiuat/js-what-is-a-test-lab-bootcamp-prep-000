@@ -10,12 +10,12 @@ describe('this-is-a-test-name', () => {
 
   describe('Height', () => {
     it('40+', () => {
-      expect(index.height).toBeGreaterThan(400)
+      expect(index.height).toBeGreaterThan(40)
     })
   })
 
   describe('Message', () => {
-    it('gives the name and height', () => {
+    it('name & height', () => {
       expect(index.message).toInclude(index.name)
       expect(index.message).toInclude(index.height)
     })
